@@ -1,0 +1,62 @@
+.profilePage {
+  display: flex;
+  height: 100%;
+
+  .details {
+    overflow-y: scroll;
+    flex: 3;
+
+    .wrapperProfile {
+      padding-right: 50px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+
+      .titleProfile {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        h1 {
+          font-weight: 300;
+        }
+
+        button {
+          padding: 12px 24px;
+          background-color: #fefc51;
+          cursor: pointer;
+          border: none;
+        }
+      }
+
+      .info {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        span {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+        }
+
+        img {
+          width: 40px;
+          height: 40px;
+          object-fit: cover;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+
+  .chatContainer {
+    flex: 2;
+    background-color: #fcfef3;
+    height: 100%;
+
+    .wrapperProfile {
+      padding: 0px 20px;
+    }
+  }
+}
