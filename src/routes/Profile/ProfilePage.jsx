@@ -1,3 +1,4 @@
+import Chat from "../../components/Chat/Chat";
 import List from "../../components/list/List";
 import { userData } from "../../lib/DummyData";
 import "./ProfilePage.scss";
@@ -36,7 +37,9 @@ const ProfilePage = () => {
         </div>
       </div>
       <div className="chatContainer">
-        <div className="wrapperProfile"></div>
+        <div className="wrapperProfile">
+          <Chat />
+        </div>
       </div>
     </div>
   );

@@ -1,6 +1,12 @@
+@import "../../responsive.scss";
+
 .Card {
   display: flex;
   gap: 20px;
+
+  @include sm {
+    display: none;
+  }
 
   .imageContainer {
     flex: 2;
